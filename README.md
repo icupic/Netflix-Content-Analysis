@@ -1,44 +1,35 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+# Netflix Movies and TV Show Analysis
+## Overview
 
-These are common Git commands used in various situations:
+This project analyzes the content of Netflix movies and TV shows. The data was obtained from Kaggle and contains information about the title, director, cast, country, date added, release year, rating, duration, listed in, and description of each title. The purpose of this analysis is to gain insights into the content available on Netflix.
+Data Source
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+## Methodology
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+The analysis was performed using Python and the following libraries: Pandas, Numpy. The following questions were explored:
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+* What is the distribution of movies and TV shows on Netflix?
+* Which countries produce the most content on Netflix?
+* What is the most popular rating on Netflix?
+* What are the top genres on Netflix?
+* Who are the most popular directors and actors on Netflix?
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+## Results
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+The analysis revealed the following insights:
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+* The majority of content on Netflix is TV shows (60%) compared to movies (40%).
+* The United States produces the most content on Netflix, followed by India and the United Kingdom.
+* TV-MA is the most popular rating on Netflix.
+* The top genres on Netflix are International, Drama, and Comedy.
+* Rajiv Chilaka is the most popular director on Netflix, and Anupam Kher is the most popular actor.
+
+## Conclusion
+
+This analysis provides insights into the content available on Netflix. The findings can be used by content creators and Netflix subscribers to make informed decisions about what to watch or produce. This project can be extended by exploring additional questions or using more advanced analysis techniques.
+
+## Requirements
+
+* Python 3.7+
+* Pandas
+* Numpy
