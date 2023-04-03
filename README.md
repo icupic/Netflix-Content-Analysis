@@ -28,6 +28,10 @@ The analysis revealed the following insights:
 
 This analysis provides insights into the content available on Netflix. The findings can be used by content creators and Netflix subscribers to make informed decisions about what to watch or produce. This project can be extended by exploring additional questions or using more advanced analysis techniques.
 
+## Report View
+
+For a more detailed analysis report with visualizations, please check out the report view of this [Project](https://lookerstudio.google.com/reporting/1e36e9ff-fb15-402b-be2b-9338fd48e162) .
+
 ## Requirements
 
 * Python 3.7+
